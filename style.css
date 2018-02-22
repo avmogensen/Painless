@@ -9,3 +9,66 @@
 */
 
 @import url(../sydney/style.css);
+
+.text-slider .subtitle {
+	background-color: rgba(0, 0, 0, 0.80);
+	margin: 1% 30%;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.slides-container .slide-item {
+	background-size: 100% 100%
+}
+
+.header-wrap {
+	background-color: rgba(0, 0, 0, 0.90);
+}
+
+.site-header.float-header {
+	background-color: transparent;
+}
+
+.roll-team .team-item .team-social li:nth-child(1) {
+	display: none
+}
+
+.go-top.show:hover {
+	background-color: white;
+	border: 1px #3e6578 solid;
+}
+
+#teamet .owl-item {
+	width: 50%!important;
+}
+
+.entry-thumb {
+	position: relative;
+	float: right;
+	margin-left: 30%;
+	transform: translate(125%, 110%);
+	display: none
+}
+
+.content-area .hentry:first-child {
+	width: 75%
+}
+
+.bwg_slideshow_image_wrap_0 {
+	width: 80%;
+	margin-left: 115%;
+	margin-top: -78%;
+}
+
+.bwg_slideshow_image_wrap_0 {
+	background-color: transparent!important;
+}
+
+@media only screen and (min-width: 991px) {
+     .roll-project.fullwidth .project-item {
+        width: 33.333333%;
+     }
+ }
